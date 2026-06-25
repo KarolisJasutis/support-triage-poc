@@ -9,6 +9,8 @@ Simple proof of concept for classifying support requests with Google Gemini.
    pip install -r requirements.txt
    ```
 2. Set `GOOGLE_API_KEY` in `config.py` if you want to call the Gemini API.
+   - You can create an API key in the Google Cloud Console under `APIs & Services > Credentials`.
+   - Make sure the project has the Generative AI / Vertex AI API enabled and billing configured(free mode is available).
 
 ## Run
 
